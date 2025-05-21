@@ -61,6 +61,9 @@ The project follows a seven-step machine learning process:
 - **Linear Regression**: MAE: 3.30, MSE: 65.42, R-squared: 0.92
 - **Random Forest (Log)**: MAE: ~2.3–2.5, MSE: ~50–55, R-squared: ~0.94–0.96 (improved by log transformation and `events`)
 - **Error Analysis**: All models perform better for high-medal countries (e.g., USA) than low-medal countries (e.g., Egypt).
+- **Visualizations**:
+  - `error_ratio_lr_rf.png`: Comparsion between error ratio of Linear Regression and Random Forest.
+  - ![LR VS RF Error Ratios](error_ratio_lr_rf.png)
 
 
 ## Future Improvements
